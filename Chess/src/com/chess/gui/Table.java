@@ -57,8 +57,8 @@ public final class Table extends Observable {
         final JMenuBar tableMenuBar = new JMenuBar();
         populateMenuBar(tableMenuBar);
         this.gameFrame.setJMenuBar(tableMenuBar);
-        this.pieceIconPath = "C:\\Users\\ASUS\\Desktop\\ai\\Chess\\Chess\\art\\img\\";
-        this.moveHighlighterPath = "C:\\Users\\ASUS\\Desktop\\ai\\Chess\\Chess\\art\\tip\\tip.png";
+        this.pieceIconPath = "C:\\Users\\ASUS\\Desktop\\3kurs\\AI\\Chess\\Chess\\art\\img\\";
+        this.moveHighlighterPath = "C:\\Users\\ASUS\\Desktop\\3kurs\\AI\\Chess\\Chess\\art\\tip\\tip.png";
 
         this.chessBoard = Board.createStandardBoard();
         this.boardDirection = BoardDirection.NORMAL;

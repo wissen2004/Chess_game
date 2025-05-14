@@ -32,7 +32,7 @@ public class BoardUtils {
     private static final int START_TILE_INDEX = 0;
     public static final int NUM_TILES = 64;
     public static final int NUM_TILES_PER_ROW = 8;
-    public static final String ICONS_PATH = "C:\\Users\\ASUS\\Desktop\\ai\\Chess\\Chess\\art\\img\\";
+    public static final String ICONS_PATH = "C:\\Users\\ASUS\\Desktop\\3kurs\\AI\\Chess\\Chess\\art\\img";
 
     private static boolean[] initColumn(int columnNumber)
     {
